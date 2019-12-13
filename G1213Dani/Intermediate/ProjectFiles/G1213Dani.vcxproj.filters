@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\G1213Dani.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{447ADB04-3672-4577-B1CA-04B530E58673}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\G1213Dani.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\G1213DaniEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C6049641-DAD0-4F14-8E93-74697CB01A18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\G1213Dani">
+      <UniqueIdentifier>{FFBD0DC6-8ADE-4BFC-BA59-D98CAE596991}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\G1213Dani\G1213Dani.Build.cs">
+      <Filter>Source\G1213Dani</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\G1213Dani\G1213Dani.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Dani\G1213Dani.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Dani\G1213DaniCharacter.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Dani\G1213DaniCharacter.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Dani\G1213DaniGameMode.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Dani\G1213DaniGameMode.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Dani\G1213DaniHUD.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Dani\G1213DaniHUD.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Dani\G1213DaniProjectile.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Dani\G1213DaniProjectile.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
