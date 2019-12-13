@@ -12,6 +12,7 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "PlayerWidget.h"
+#include "Engine.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -125,6 +126,34 @@ void AG1213DaniCharacter::setLevel(int value)
 	}
 }
 
+void AG1213DaniCharacter::resetLevelPlayer()
+{
+	setLevel(1);
+}
+
+void AG1213DaniCharacter::LootBox()
+{
+	float rand = FGenericPlatformMath::FRand();
+	FString result;
+	FColor color;
+	if (rand < 0.5f)
+	{
+		result = "COMMON ";
+		color = FColor::Green;
+	}
+	else if (rand <= 0.8f)
+	{
+		result = "RARE ";
+		color = FColor::Blue;
+	}
+	else
+	{
+		result = "LEGENDARY ";
+		color = FColor::Purple;
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 20, color, result + TEXT("ITEM"));
+}
+
 void AG1213DaniCharacter::pickCandy()
 {
 	int levelsToAdd = 1 + rarestCandiesCount;
@@ -139,6 +168,9 @@ void AG1213DaniCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 {
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAction("SurpriseBox", IE_Pressed, this, &AG1213DaniCharacter::LootBox);
+
 
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);

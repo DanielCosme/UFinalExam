@@ -34,10 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeRarestCandy() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Duration_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Duration;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PickupSound;
@@ -60,13 +56,6 @@ void EmptyLinkFunctionForGeneratedCodeRarestCandy() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARarestCandy_Statics::NewProp_Duration_MetaData[] = {
-		{ "Category", "RarestCandy" },
-		{ "ModuleRelativePath", "RarestCandy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARarestCandy_Statics::NewProp_Duration = { "Duration", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARarestCandy, Duration), METADATA_PARAMS(Z_Construct_UClass_ARarestCandy_Statics::NewProp_Duration_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARarestCandy_Statics::NewProp_Duration_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARarestCandy_Statics::NewProp_PickupSound_MetaData[] = {
 		{ "Category", "RarestCandy" },
 		{ "ModuleRelativePath", "RarestCandy.h" },
@@ -82,7 +71,6 @@ void EmptyLinkFunctionForGeneratedCodeRarestCandy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARarestCandy_Statics::NewProp_MeshComponent = { "MeshComponent", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARarestCandy, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARarestCandy_Statics::NewProp_MeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARarestCandy_Statics::NewProp_MeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARarestCandy_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARarestCandy_Statics::NewProp_Duration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARarestCandy_Statics::NewProp_PickupSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARarestCandy_Statics::NewProp_MeshComponent,
 	};
@@ -113,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeRarestCandy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARarestCandy, 1146334138);
+	IMPLEMENT_CLASS(ARarestCandy, 3624788395);
 	template<> G1213DANI_API UClass* StaticClass<ARarestCandy>()
 	{
 		return ARarestCandy::StaticClass();

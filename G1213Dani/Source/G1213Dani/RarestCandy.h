@@ -18,8 +18,6 @@ public:
 	UPROPERTY(VisibleAnywhere) UStaticMeshComponent* MeshComponent;
 	UPROPERTY(EditAnywhere) class USoundBase* PickupSound;
 
-	UPROPERTY(EditAnywhere) float Duration = 5.f;
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

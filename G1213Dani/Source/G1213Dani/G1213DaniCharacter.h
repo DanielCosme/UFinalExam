@@ -53,6 +53,11 @@ public:
 
 	void looseLevel(int value);
 	void setLevel(int value);
+	void resetLevelPlayer();
+
+	void LootBox();
+
+
 	int rarestCandiesCount = 0;
 	void pickCandy();
 	UPROPERTY(BlueprintReadOnly) int level = 10;
