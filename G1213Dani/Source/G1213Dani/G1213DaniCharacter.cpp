@@ -131,27 +131,33 @@ void AG1213DaniCharacter::resetLevelPlayer()
 	setLevel(1);
 }
 
-void AG1213DaniCharacter::LootBox()
+void AG1213DaniCharacter::SurpirseBox()
 {
 	float rand = FGenericPlatformMath::FRand();
 	FString result;
 	FColor color;
-	if (rand < 0.5f)
+	if (rand < CHANCE_A)
 	{
-		result = "COMMON ";
+		result = "CHANCE A, You Gain 1 level and Open Another Box ";
+		setLevel(1);
 		color = FColor::Green;
+		GEngine->AddOnScreenDebugMessage(-1, 20, color, result);
+		SurpirseBox();
 	}
-	else if (rand <= 0.8f)
+	else if (rand <= CHANCE_A + CHANCE_B)
 	{
-		result = "RARE ";
+		result = "CHANCE B, You Loose 1 level and open ANother Box ";
+		setLevel(-1);
 		color = FColor::Blue;
+		GEngine->AddOnScreenDebugMessage(-1, 20, color, result);
+		SurpirseBox();
 	}
 	else
 	{
-		result = "LEGENDARY ";
+		result = "Nothing Opens, You Stop. ";
 		color = FColor::Purple;
 	}
-	GEngine->AddOnScreenDebugMessage(-1, 20, color, result + TEXT("ITEM"));
+	GEngine->AddOnScreenDebugMessage(-1, 20, color, result);
 }
 
 void AG1213DaniCharacter::pickCandy()
@@ -169,7 +175,7 @@ void AG1213DaniCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("SurpriseBox", IE_Pressed, this, &AG1213DaniCharacter::LootBox);
+	PlayerInputComponent->BindAction("SurpriseBox", IE_Pressed, this, &AG1213DaniCharacter::SurpirseBox);
 
 
 	// Bind jump events

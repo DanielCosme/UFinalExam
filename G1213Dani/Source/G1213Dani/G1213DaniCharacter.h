@@ -55,7 +55,7 @@ public:
 	void setLevel(int value);
 	void resetLevelPlayer();
 
-	void LootBox();
+	void SurpirseBox();
 
 
 	int rarestCandiesCount = 0;
@@ -65,6 +65,8 @@ public:
 protected:
 	virtual void BeginPlay();
 
+	const float CHANCE_A = 0.5f;
+	const float CHANCE_B = 0.3f;
 
 
 public:
