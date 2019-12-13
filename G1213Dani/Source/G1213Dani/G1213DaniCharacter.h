@@ -50,12 +50,16 @@ public:
 
 	UPROPERTY(EditAnywhere) TSubclassOf<class UPlayerWidget> wg;
 
-	UPROPERTY(BlueprintReadOnly) int level = 10;
 
 	void looseLevel(int value);
+	void setLevel(int value);
+	int rarestCandiesCount = 0;
+	void pickCandy();
+	UPROPERTY(BlueprintReadOnly) int level = 10;
 
 protected:
 	virtual void BeginPlay();
+
 
 
 public:

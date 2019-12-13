@@ -113,8 +113,23 @@ void AG1213DaniCharacter::BeginPlay()
 
 void AG1213DaniCharacter::looseLevel(int value)
 {
-	if (level % value == 0) level -= 2;
-	else level -= 1;
+	if (level % value == 0) setLevel(-2);
+	else setLevel(-1);
+}
+
+void AG1213DaniCharacter::setLevel(int value)
+{
+	if (level >= 0 || level < 99) 
+	{
+		level += value;
+	}
+}
+
+void AG1213DaniCharacter::pickCandy()
+{
+	int levelsToAdd = 1 + rarestCandiesCount;
+	setLevel(levelsToAdd);
+	rarestCandiesCount++;
 }
 
 //////////////////////////////////////////////////////////////////////////

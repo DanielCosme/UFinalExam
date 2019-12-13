@@ -73,12 +73,18 @@
     <ClInclude Include="..\..\Source\G1213Dani\UnluckyTrap.h">
       <Filter>Source\G1213Dani</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Dani\RarestCandy.h">
+      <Filter>Source\G1213Dani</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\G1213Dani\PlayerWidget.cpp">
       <Filter>Source\G1213Dani</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G1213Dani\UnluckyTrap.cpp">
+      <Filter>Source\G1213Dani</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Dani\RarestCandy.cpp">
       <Filter>Source\G1213Dani</Filter>
     </ClCompile>
   </ItemGroup>

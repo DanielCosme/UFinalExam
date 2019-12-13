@@ -1313,3 +1313,465 @@ Script Stack (0 frames):
 [2019.12.13-13.49.05:501][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PLayerWidget" FILE="../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_PLayerWidget.uasset" SILENT=true
 [2019.12.13-13.49.05:535][163]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Saved/BP_PLayerWidget7D60E8DD4926F91391429083860AB084.tmp' to '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_PLayerWidget.uasset'
 [2019.12.13-13.49.06:671][217]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2019.12.13-13.49.55:583][891]Candidate modules for hot reload:
+[2019.12.13-13.49.55:583][891]  G1213Dani
+[2019.12.13-13.49.55:583][891]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213Dani,7165 Win64 Development -TargetType=Editor -Project="C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject" "C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject"  -IgnoreJunk]
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 3:50:10 AM
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Daniel\Desktop\UFinalExam).
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Creating makefile for G1213DaniEditor (ini files are newer than makefile)
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Parsing headers for G1213DaniEditor
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\G1213Dani.uproject" "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\G1213DaniEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Reflection code generated for G1213DaniEditor in 8.196997 seconds
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [1/6] G1213Dani.init.gen.cpp
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [2/6] RarestCandy.cpp
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [3/6] RarestCandy.gen.cpp
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [4/6] UE4Editor-G1213Dani-7165.lib
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-7165.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-7165.exp
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [5/6] UE4Editor-G1213Dani-7165.dll
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-7165.suppressed.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-7165.suppressed.exp
+[2019.12.13-13.50.10:110][891]CompilerResultsLog:   [6/6] G1213DaniEditor.target
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Total time in Parallel executor: 3.41 seconds
+[2019.12.13-13.50.10:110][891]CompilerResultsLog: Total execution time: 14.40 seconds
+[2019.12.13-13.50.10:110][891]LogMainFrame: MainFrame: Module compiling took 14.533 seconds
+[2019.12.13-13.50.10:169][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.12.13-13.50.10:170][891]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-13.50.10:205][891]LogClass: Could not find existing class RarestCandy in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-13.50.10:219][891]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-13.50.10:219][891]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.12.13-13.50.10:226][891]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.50.10:355][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.12.13-13.50.10:357][891]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.50.10:374][891]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-13.50.10:374][891]Display: HotReload took 14.8s.
+[2019.12.13-13.50.10:376][891]Warning: HotReload operation took 14.8s.
+[2019.12.13-13.50.10:767][891]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.13-13.50.11:210][892]LogHotReload: New module detected: UE4Editor-G1213Dani-7165.dll
+[2019.12.13-13.50.11:232][893]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.50.11:366][893]LogUObjectHash: Compacting FUObjectHashTables data took   7.21ms
+[2019.12.13-13.50.11:367][893]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-13.50.11:378][893]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-13.50.11:379][893]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2019.12.13-13.50.11:387][893]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.50.11:455][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.12.13-13.50.11:457][893]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.50.11:476][893]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-13.50.11:480][893]Display: HotReload took  0.2s.
+[2019.12.13-13.50.59:774][ 36]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.565 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.13-13.54.12:038][715]Candidate modules for hot reload:
+[2019.12.13-13.54.12:038][715]  G1213Dani
+[2019.12.13-13.54.12:038][715]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213Dani,9855 Win64 Development -TargetType=Editor -Project="C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject" "C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject"  -IgnoreJunk]
+[2019.12.13-13.54.12:040][715]Warning: Starting HotReload took  0.1s.
+[2019.12.13-13.54.31:414][801]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 3:54:31 AM
+[2019.12.13-13.54.31:414][801]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Daniel\Desktop\UFinalExam).
+[2019.12.13-13.54.31:415][801]CompilerResultsLog: Parsing headers for G1213DaniEditor
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\G1213Dani.uproject" "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\G1213DaniEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-13.54.31:415][801]CompilerResultsLog: Reflection code generated for G1213DaniEditor in 7.3094094 seconds
+[2019.12.13-13.54.31:415][801]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-13.54.31:415][801]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [1/10] G1213Dani.init.gen.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [2/10] RarestCandy.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [3/10] RarestCandy.gen.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [4/10] UnluckyTrap.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [5/10] G1213DaniCharacter.gen.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [6/10] G1213DaniGameMode.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [7/10] G1213DaniCharacter.cpp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [8/10] UE4Editor-G1213Dani-9855.lib
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-9855.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-9855.exp
+[2019.12.13-13.54.31:415][801]CompilerResultsLog:   [9/10] UE4Editor-G1213Dani-9855.dll
+[2019.12.13-13.54.31:416][801]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-9855.suppressed.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-9855.suppressed.exp
+[2019.12.13-13.54.31:416][801]CompilerResultsLog:   [10/10] G1213DaniEditor.target
+[2019.12.13-13.54.31:416][801]CompilerResultsLog: Total time in Parallel executor: 10.47 seconds
+[2019.12.13-13.54.31:416][801]CompilerResultsLog: Total execution time: 19.13 seconds
+[2019.12.13-13.54.31:416][801]LogMainFrame: MainFrame: Module compiling took 19.384 seconds
+[2019.12.13-13.54.31:554][801]LogUObjectHash: Compacting FUObjectHashTables data took  10.76ms
+[2019.12.13-13.54.31:556][801]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-13.54.31:589][801]LogClass: Could not find existing class G1213DaniCharacter in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-13.54.31:616][801]LogClass: Could not find existing class RarestCandy in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-13.54.31:648][801]LogHotReload: Re-instancing G1213DaniCharacter after hot-reload.
+[2019.12.13-13.54.32:268][801]LogHotReload: Re-instancing RarestCandy after hot-reload.
+[2019.12.13-13.54.32:525][801]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-13.54.32:525][801]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.12.13-13.54.32:532][801]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.54.32:664][801]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.12.13-13.54.32:666][801]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.54.32:688][801]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-13.54.32:688][801]Display: HotReload took 20.7s.
+[2019.12.13-14.03.08:321][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-14.03.08:452][890]Candidate modules for hot reload:
+[2019.12.13-14.03.08:452][890]  G1213Dani
+[2019.12.13-14.03.08:452][890]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213Dani,5714 Win64 Development -TargetType=Editor -Project="C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject" "C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject"  -IgnoreJunk]
+[2019.12.13-14.03.08:455][890]Warning: Starting HotReload took  0.1s.
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 4:03:28 AM
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Daniel\Desktop\UFinalExam).
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Parsing headers for G1213DaniEditor
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\G1213Dani.uproject" "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\G1213DaniEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Reflection code generated for G1213DaniEditor in 7.4921736 seconds
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [1/10] G1213Dani.init.gen.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [2/10] UnluckyTrap.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [3/10] RarestCandy.gen.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [4/10] G1213DaniCharacter.gen.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [5/10] G1213DaniGameMode.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [6/10] RarestCandy.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [7/10] G1213DaniCharacter.cpp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [8/10] UE4Editor-G1213Dani-5714.lib
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-5714.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-5714.exp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [9/10] UE4Editor-G1213Dani-5714.dll
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-5714.suppressed.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-5714.suppressed.exp
+[2019.12.13-14.03.28:611][984]CompilerResultsLog:   [10/10] G1213DaniEditor.target
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Total time in Parallel executor: 10.89 seconds
+[2019.12.13-14.03.28:611][984]CompilerResultsLog: Total execution time: 19.85 seconds
+[2019.12.13-14.03.28:611][984]LogMainFrame: MainFrame: Module compiling took 20.167 seconds
+[2019.12.13-14.03.28:718][984]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2019.12.13-14.03.28:720][984]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-14.03.28:740][984]LogClass: Could not find existing class G1213DaniCharacter in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-14.03.28:755][984]LogClass: Could not find existing class RarestCandy in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-14.03.28:773][984]LogHotReload: Re-instancing G1213DaniCharacter after hot-reload.
+[2019.12.13-14.03.29:372][984]LogHotReload: Re-instancing RarestCandy after hot-reload.
+[2019.12.13-14.03.29:818][984]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-14.03.29:818][984]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2019.12.13-14.03.29:827][984]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-14.03.30:001][984]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2019.12.13-14.03.30:003][984]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-14.03.30:024][984]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-14.03.30:024][984]Display: HotReload took 21.6s.
+[2019.12.13-14.04.44:873][413]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.13-14.04.53:990][939]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_RarestCandy.BP_RarestCandy
+[2019.12.13-14.05.10:378][871]BlueprintLog: New page: Compile BP_RarestCandy
+[2019.12.13-14.05.10:790][871]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2019.12.13-14.05.11:331][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_RarestCandy" FILE="../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_RarestCandy.uasset" SILENT=true
+[2019.12.13-14.05.11:354][893]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Saved/BP_RarestCandy96A140B44354B85246489999A611306B.tmp' to '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_RarestCandy.uasset'
+[2019.12.13-14.05.34:418][181]LogEditorViewport: Clicking on Actor (LMB): BP_RarestCandy_C (BP_RarestCandy3)
+[2019.12.13-14.05.37:172][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-14.05.37:255][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.05.37:284][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.37:284][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.05.37:284][341]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:05:37 AM)
+[2019.12.13-14.05.37:284][341]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.05.37:317][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032961s)
+[2019.12.13-14.05.37:318][341]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.05.37:318][341]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2019.12.13-14.05.37:318][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034116s)
+[2019.12.13-14.05.37:415][341]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
+[2019.12.13-14.05.37:430][341]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.05.37:448][341]LogInit: FAudioDevice initialized.
+[2019.12.13-14.05.37:479][341]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.05.37:482][341]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.05.37
+[2019.12.13-14.05.37:482][341]LogWorld: Bringing up level for play took: 0.002073
+[2019.12.13-14.05.37:495][341]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.357
+[2019.12.13-14.05.37:496][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.37:501][341]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:624][342]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:630][343]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:707][344]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:766][345]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:778][346]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:796][347]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:812][348]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:831][349]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:846][350]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:863][351]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:879][352]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:896][353]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:913][354]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:929][355]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:948][356]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.37:966][357]LogScript: Warning: Attempted to access missing property 'level'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PlayerWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_PlayerWidget_C_0
+	Function /Game/BP_PLayerWidget.BP_PlayerWidget_C:GetText_0:009C
+[2019.12.13-14.05.47:463][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.47:463][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.05.47:499][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.05.47:499][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.47:561][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.05.47:569][927]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.12.13-14.05.47:630][928]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.12.13-14.05.48:335][964]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.05.48:362][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.48:363][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.05.48:363][964]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:05:48 AM)
+[2019.12.13-14.05.48:363][964]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.05.48:376][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012827s)
+[2019.12.13-14.05.48:377][964]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.05.48:377][964]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2019.12.13-14.05.48:377][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014434s)
+[2019.12.13-14.05.48:438][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.12.13-14.05.48:451][964]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.05.48:463][964]LogInit: FAudioDevice initialized.
+[2019.12.13-14.05.48:463][964]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-14.05.48:491][964]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.05.48:494][964]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.05.48
+[2019.12.13-14.05.48:495][964]LogWorld: Bringing up level for play took: 0.002644
+[2019.12.13-14.05.48:507][964]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.631
+[2019.12.13-14.05.48:507][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.53:137][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.53:138][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.05.53:176][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.05.53:176][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.05.53:236][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.05.53:245][240]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2019.12.13-14.05.53:305][241]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.12.13-14.06.26:363][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-14.06.26:461][422]Candidate modules for hot reload:
+[2019.12.13-14.06.26:461][422]  G1213Dani
+[2019.12.13-14.06.26:462][422]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213Dani,8030 Win64 Development -TargetType=Editor -Project="C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject" "C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject"  -IgnoreJunk]
+[2019.12.13-14.06.26:464][422]Warning: Starting HotReload took  0.0s.
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 4:06:48 AM
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Daniel\Desktop\UFinalExam).
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Creating makefile for G1213DaniEditor (ini files are newer than makefile)
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Parsing headers for G1213DaniEditor
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\G1213Dani.uproject" "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\G1213DaniEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Reflection code generated for G1213DaniEditor in 8.5026013 seconds
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [1/9] G1213Dani.init.gen.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [2/9] UnluckyTrap.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [3/9] G1213DaniCharacter.gen.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [4/9] G1213DaniGameMode.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [5/9] RarestCandy.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [6/9] G1213DaniCharacter.cpp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [7/9] UE4Editor-G1213Dani-8030.lib
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-8030.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-8030.exp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [8/9] UE4Editor-G1213Dani-8030.dll
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-8030.suppressed.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-8030.suppressed.exp
+[2019.12.13-14.06.48:262][716]CompilerResultsLog:   [9/9] G1213DaniEditor.target
+[2019.12.13-14.06.48:262][716]CompilerResultsLog: Total time in Parallel executor: 9.84 seconds
+[2019.12.13-14.06.48:263][716]CompilerResultsLog: Total execution time: 21.64 seconds
+[2019.12.13-14.06.48:263][716]LogMainFrame: MainFrame: Module compiling took 21.808 seconds
+[2019.12.13-14.06.48:345][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.12.13-14.06.48:347][716]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-14.06.48:376][716]LogClass: Could not find existing class G1213DaniCharacter in package /Script/G1213Dani for HotReload, assuming new class
+[2019.12.13-14.06.48:425][716]LogHotReload: Re-instancing G1213DaniCharacter after hot-reload.
+[2019.12.13-14.06.49:016][716]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-14.06.49:016][716]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.12.13-14.06.49:024][716]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-14.06.49:157][716]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2019.12.13-14.06.49:160][716]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-14.06.49:181][716]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-14.06.49:181][716]Display: HotReload took 22.8s.
+[2019.12.13-14.07.02:337][464]BlueprintLog: New page: Compile BP_PlayerWidget
+[2019.12.13-14.07.02:436][464]LogUObjectHash: Compacting FUObjectHashTables data took   8.72ms
+[2019.12.13-14.07.02:837][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PLayerWidget" FILE="../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_PLayerWidget.uasset" SILENT=true
+[2019.12.13-14.07.02:875][485]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Saved/BP_PLayerWidget8372593E48AC21F910B1BC9B26F1D0A3.tmp' to '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_PLayerWidget.uasset'
+[2019.12.13-14.07.07:045][729]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/BP_PLayerWidget
+[2019.12.13-14.07.07:137][729]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2019.12.13-14.07.07:165][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_3) Not registered. Aborting.
+[2019.12.13-14.07.07:165][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_3) Not registered. Aborting.
+[2019.12.13-14.07.07:165][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_24) Not registered. Aborting.
+[2019.12.13-14.07.07:175][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_2) Not registered. Aborting.
+[2019.12.13-14.07.07:175][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_2) Not registered. Aborting.
+[2019.12.13-14.07.07:175][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_20) Not registered. Aborting.
+[2019.12.13-14.07.07:403][729]LogUObjectHash: Compacting FUObjectHashTables data took   7.55ms
+[2019.12.13-14.07.07:859][729]LogUObjectHash: Compacting FUObjectHashTables data took  10.71ms
+[2019.12.13-14.07.07:859][729]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP_PLayerWidget.BP_PlayerWidget
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.VR_MuzzleLocation) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.FirstPersonCamera) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.R_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.L_MotionController) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-14.07.08:371][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.Arrow) Component already registered.
+[2019.12.13-14.07.08:372][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-14.07.08:372][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-14.07.08:372][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-14.07.08:373][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-14.07.08:373][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.StaticMeshComponent_0) Component already registered.
+[2019.12.13-14.07.08:373][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.CollisionCylinder) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.CharMoveComp) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-14.07.08:374][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.CharacterMesh0) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.CharacterMesh1P) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.FP_Gun) Component already registered.
+[2019.12.13-14.07.08:375][729]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_4.VR_Gun) Component already registered.
+[2019.12.13-14.07.10:364][848]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.07.10:399][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.10:400][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.07.10:400][848]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:07:10 AM)
+[2019.12.13-14.07.10:400][848]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.07.10:410][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010889s)
+[2019.12.13-14.07.10:412][848]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.07.10:413][848]LogPlayLevel: PIE: World Init took: (0.002186s)
+[2019.12.13-14.07.10:413][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013263s)
+[2019.12.13-14.07.10:473][848]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.12.13-14.07.10:490][848]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.07.10:505][848]LogInit: FAudioDevice initialized.
+[2019.12.13-14.07.10:534][848]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.07.10:537][848]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.07.10
+[2019.12.13-14.07.10:538][848]LogWorld: Bringing up level for play took: 0.002245
+[2019.12.13-14.07.10:552][848]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.586
+[2019.12.13-14.07.10:552][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.28:158][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.28:159][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.28:193][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.07.28:193][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.28:258][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.28:267][893]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2019.12.13-14.07.28:327][894]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.12.13-14.07.28:993][930]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.07.29:014][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.29:015][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.07.29:015][930]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:07:29 AM)
+[2019.12.13-14.07.29:015][930]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.07.29:027][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012223s)
+[2019.12.13-14.07.29:027][930]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.07.29:028][930]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2019.12.13-14.07.29:028][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013500s)
+[2019.12.13-14.07.29:090][930]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.12.13-14.07.29:103][930]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.07.29:116][930]LogInit: FAudioDevice initialized.
+[2019.12.13-14.07.29:117][930]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-14.07.29:147][930]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.07.29:150][930]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.07.29
+[2019.12.13-14.07.29:150][930]LogWorld: Bringing up level for play took: 0.002207
+[2019.12.13-14.07.29:164][930]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.025
+[2019.12.13-14.07.29:164][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.37:095][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.37:096][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.37:130][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.07.37:130][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.37:190][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.37:197][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.12.13-14.07.37:253][405]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.12.13-14.07.37:583][417]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.07.37:608][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.37:608][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.07.37:609][417]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:07:37 AM)
+[2019.12.13-14.07.37:609][417]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.07.37:618][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010496s)
+[2019.12.13-14.07.37:620][417]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.07.37:621][417]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2019.12.13-14.07.37:621][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011952s)
+[2019.12.13-14.07.37:685][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.12.13-14.07.37:701][417]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.07.37:714][417]LogInit: FAudioDevice initialized.
+[2019.12.13-14.07.37:714][417]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-14.07.37:744][417]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.07.37:747][417]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.07.37
+[2019.12.13-14.07.37:748][417]LogWorld: Bringing up level for play took: 0.002013
+[2019.12.13-14.07.37:760][417]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.622
+[2019.12.13-14.07.37:761][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.46:399][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.46:399][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.46:435][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.07.46:435][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.07.46:503][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.07.46:511][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.12.13-14.07.46:526][926]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.12.13-14.08.31:780][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-14.08.32:517][113]Candidate modules for hot reload:
+[2019.12.13-14.08.32:517][113]  G1213Dani
+[2019.12.13-14.08.32:517][113]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213Dani,1812 Win64 Development -TargetType=Editor -Project="C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject" "C:/Users/Daniel/Desktop/UFinalExam/G1213Dani/G1213Dani.uproject"  -IgnoreJunk]
+[2019.12.13-14.08.32:519][113]Warning: Starting HotReload took  0.0s.
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 4:08:50 AM
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Daniel\Desktop\UFinalExam).
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Creating makefile for G1213DaniEditor (ini files are newer than makefile)
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Parsing headers for G1213DaniEditor
+[2019.12.13-14.08.50:931][194]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\G1213Dani.uproject" "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\G1213DaniEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Reflection code generated for G1213DaniEditor in 7.9985342 seconds
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-14.08.50:931][194]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.13-14.08.50:931][194]CompilerResultsLog:   [1/4] G1213DaniCharacter.cpp
+[2019.12.13-14.08.50:931][194]CompilerResultsLog:   [2/4] UE4Editor-G1213Dani-1812.lib
+[2019.12.13-14.08.50:931][194]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-1812.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-1812.exp
+[2019.12.13-14.08.50:932][194]CompilerResultsLog:   [3/4] UE4Editor-G1213Dani-1812.dll
+[2019.12.13-14.08.50:932][194]CompilerResultsLog:      Creating library C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-1812.suppressed.lib and object C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UE4Editor-G1213Dani-1812.suppressed.exp
+[2019.12.13-14.08.50:932][194]CompilerResultsLog:   [4/4] G1213DaniEditor.target
+[2019.12.13-14.08.50:932][194]CompilerResultsLog: Total time in Parallel executor: 7.50 seconds
+[2019.12.13-14.08.50:932][194]CompilerResultsLog: Total execution time: 18.26 seconds
+[2019.12.13-14.08.50:932][194]LogMainFrame: MainFrame: Module compiling took 18.422 seconds
+[2019.12.13-14.08.50:994][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.12.13-14.08.50:996][194]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (unloaded)
+[2019.12.13-14.08.51:060][194]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213Dani (loaded)
+[2019.12.13-14.08.51:061][194]LogContentBrowser: Native class hierarchy updated for 'G1213Dani' in 0.0007 seconds. Added 7 classes and 2 folders.
+[2019.12.13-14.08.51:069][194]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-14.08.51:203][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.12.13-14.08.51:205][194]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-14.08.51:225][194]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2871 classes and 728 folders.
+[2019.12.13-14.08.51:225][194]Display: HotReload took 18.7s.
+[2019.12.13-14.08.59:976][684]BlueprintLog: New page: Compile BP_RarestCandy
+[2019.12.13-14.09.00:411][684]LogUObjectHash: Compacting FUObjectHashTables data took   6.93ms
+[2019.12.13-14.09.00:878][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_RarestCandy" FILE="../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_RarestCandy.uasset" SILENT=true
+[2019.12.13-14.09.00:909][703]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Saved/BP_RarestCandy9A79B71E4DB5BE6FBD8B049064A0F309.tmp' to '../../../../../../Users/Daniel/Desktop/UFinalExam/G1213Dani/Content/BP_RarestCandy.uasset'
+[2019.12.13-14.09.02:180][778]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-14.09.02:212][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.09.02:212][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-14.09.02:212][778]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 4:09:02 AM)
+[2019.12.13-14.09.02:212][778]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-14.09.02:223][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010987s)
+[2019.12.13-14.09.02:224][778]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-14.09.02:224][778]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2019.12.13-14.09.02:224][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012078s)
+[2019.12.13-14.09.02:297][778]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2019.12.13-14.09.02:312][778]LogInit: XAudio2 using 'Headphones (HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-14.09.02:326][778]LogInit: FAudioDevice initialized.
+[2019.12.13-14.09.02:355][778]LogLoad: Game class is 'G1213DaniGameMode'
+[2019.12.13-14.09.02:358][778]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.13-09.09.02
+[2019.12.13-14.09.02:359][778]LogWorld: Bringing up level for play took: 0.002071
+[2019.12.13-14.09.02:373][778]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.766
+[2019.12.13-14.09.02:374][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.09.17:646][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.09.17:647][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.09.17:681][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-14.09.17:681][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-14.09.17:747][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-14.09.17:754][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.12.13-14.09.17:768][685]LogPlayLevel: Display: Destroying online subsystem :Context_30
