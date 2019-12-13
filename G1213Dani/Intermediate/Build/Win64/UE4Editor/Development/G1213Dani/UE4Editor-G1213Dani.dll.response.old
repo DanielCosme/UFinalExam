@@ -32,6 +32,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\G1213DaniEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Cubemon.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213Dani.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213DaniCharacter.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213DaniGameMode.cpp.obj"
@@ -41,6 +42,7 @@
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\RarestCandy.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\ResetPad.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\UnluckyTrap.cpp.obj"
+"C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Cubemon.gen.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213Dani.init.gen.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213DaniCharacter.gen.cpp.obj"
 "C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\G1213DaniGameMode.gen.cpp.obj"

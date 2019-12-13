@@ -57,7 +57,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACubemon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACubemon)
 
 
-#define G1213Dani_Source_G1213Dani_Cubemon_h_12_PRIVATE_PROPERTY_OFFSET
+#define G1213Dani_Source_G1213Dani_Cubemon_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__WidgetComponent() { return STRUCT_OFFSET(ACubemon, WidgetComponent); } \
+	FORCEINLINE static uint32 __PPO__Body() { return STRUCT_OFFSET(ACubemon, Body); } \
+	FORCEINLINE static uint32 __PPO__Head() { return STRUCT_OFFSET(ACubemon, Head); }
+
+
 #define G1213Dani_Source_G1213Dani_Cubemon_h_9_PROLOG
 #define G1213Dani_Source_G1213Dani_Cubemon_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

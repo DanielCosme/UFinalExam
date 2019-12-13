@@ -365,11 +365,13 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\G1213Dani\Cubemon.cpp" />
+    <ClCompile Include="..\..\Source\G1213Dani\CubemonWidget.cpp" />
     <ClCompile Include="..\..\Source\G1213Dani\PlayerWidget.cpp" />
     <ClCompile Include="..\..\Source\G1213Dani\RarestCandy.cpp" />
     <ClCompile Include="..\..\Source\G1213Dani\ResetPad.cpp" />
     <ClCompile Include="..\..\Source\G1213Dani\UnluckyTrap.cpp" />
     <ClInclude Include="..\..\Source\G1213Dani\Cubemon.h" />
+    <ClInclude Include="..\..\Source\G1213Dani\CubemonWidget.h" />
     <ClInclude Include="..\..\Source\G1213Dani\PlayerWidget.h" />
     <ClInclude Include="..\..\Source\G1213Dani\RarestCandy.h" />
     <ClInclude Include="..\..\Source\G1213Dani\ResetPad.h" />
