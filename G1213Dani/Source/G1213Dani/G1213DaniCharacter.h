@@ -56,6 +56,10 @@ public:
 	void resetLevelPlayer();
 
 	void SurpirseBox();
+	void CloseCubemon();
+	void Scanner();
+
+	float closeCubeRadius = 500.f;
 
 
 	int rarestCandiesCount = 0;

@@ -13,6 +13,7 @@
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "PlayerWidget.h"
 #include "Engine.h"
+#include "Cubemon.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -124,6 +125,7 @@ void AG1213DaniCharacter::setLevel(int value)
 	{
 		level += value;
 	}
+	GEngine->AddOnScreenDebugMessage(-1, 20, FColor::Blue, TEXT("LEVEL: ") + FString::FromInt(level));
 }
 
 void AG1213DaniCharacter::resetLevelPlayer()
@@ -160,6 +162,52 @@ void AG1213DaniCharacter::SurpirseBox()
 	GEngine->AddOnScreenDebugMessage(-1, 20, color, result);
 }
 
+void AG1213DaniCharacter::CloseCubemon()
+{
+	TArray<TEnumAsByte<EObjectTypeQuery>> filter;
+	TArray<AActor*> ignore;
+	TArray<AActor*> out;
+
+	UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), closeCubeRadius, filter, ACubemon::StaticClass(), ignore, out);
+
+	ACubemon* closest = nullptr;
+
+	for (auto actor : out)
+	{
+		auto cubemon = Cast<ACubemon>(actor);
+		if (cubemon != nullptr)
+		{
+			FVector myPos = this->GetActorLocation();
+			if (closest == nullptr) closest = cubemon;
+			else if (cubemon->level - level >= level) closest = cubemon;
+		}
+	}
+	if (closest != nullptr) closest->Destroy();
+}
+
+void AG1213DaniCharacter::Scanner()
+{
+	TArray<AActor*> CubesFound;
+	TArray<ACubemon*> CubesFoundSorted;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACubemon::StaticClass(), CubesFound);
+	ACubemon* tmp = nullptr;
+
+	for (auto cube : CubesFound)
+	{
+		CubesFoundSorted.Add(Cast<ACubemon>(cube));
+	}
+	CubesFoundSorted.Sort(FSortByLvl());
+
+	for (auto cubemon : CubesFoundSorted)
+	{
+		auto cube = Cast<ACubemon>(cubemon);
+		if (cube->level % 2 == 0)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, cube->GetActorLabel() + TEXT(" Level is ") + FString::FromInt(cube->level));
+		}
+	}
+}
+
 void AG1213DaniCharacter::pickCandy()
 {
 	int levelsToAdd = 1 + rarestCandiesCount;
@@ -176,6 +224,8 @@ void AG1213DaniCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	check(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("SurpriseBox", IE_Pressed, this, &AG1213DaniCharacter::SurpirseBox);
+	PlayerInputComponent->BindAction("CubeKill", IE_Pressed, this, &AG1213DaniCharacter::CloseCubemon);
+	PlayerInputComponent->BindAction("Scan", IE_Pressed, this, &AG1213DaniCharacter::Scanner);
 
 
 	// Bind jump events
