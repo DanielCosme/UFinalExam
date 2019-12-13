@@ -48,6 +48,10 @@ class AG1213DaniCharacter : public ACharacter
 public:
 	AG1213DaniCharacter();
 
+	UPROPERTY(EditAnywhere) TSubclassOf<class UPlayerWidget> wg;
+
+	UPROPERTY(BlueprintReadOnly) int level = 10;
+
 protected:
 	virtual void BeginPlay();
 

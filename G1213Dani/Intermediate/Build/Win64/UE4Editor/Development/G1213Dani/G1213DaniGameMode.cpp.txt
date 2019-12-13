@@ -1,20 +1,20 @@
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Definitions.G1213Dani.h
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani\G1213DaniGameMode.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Definitions.G1213Dani.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani\G1213DaniGameMode.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniGameMode.generated.h
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani\G1213DaniHUD.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniGameMode.generated.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani\G1213DaniHUD.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniHUD.generated.h
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani\G1213DaniCharacter.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniHUD.generated.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani\G1213DaniCharacter.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniCharacter.generated.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniCharacter.generated.h

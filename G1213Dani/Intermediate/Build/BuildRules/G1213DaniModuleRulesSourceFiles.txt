@@ -1,3 +1,3 @@
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani\G1213Dani.Build.cs
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani.Target.cs
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213DaniEditor.Target.cs
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani\G1213Dani.Build.cs
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani.Target.cs
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213DaniEditor.Target.cs

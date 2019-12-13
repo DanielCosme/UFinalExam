@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213DaniCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	G1213DANI_API UClass* Z_Construct_UClass_AG1213DaniProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	G1213DANI_API UClass* Z_Construct_UClass_UPlayerWidget_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -69,6 +70,14 @@ void EmptyLinkFunctionForGeneratedCodeG1213DaniCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_level_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_level;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_wg_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_wg;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
@@ -177,6 +186,20 @@ void EmptyLinkFunctionForGeneratedCodeG1213DaniCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213DaniCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_level_MetaData[] = {
+		{ "Category", "G1213DaniCharacter" },
+		{ "ModuleRelativePath", "G1213DaniCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_level = { "level", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213DaniCharacter, level), METADATA_PARAMS(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_level_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_level_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_wg_MetaData[] = {
+		{ "Category", "G1213DaniCharacter" },
+		{ "ModuleRelativePath", "G1213DaniCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_wg = { "wg", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213DaniCharacter, wg), Z_Construct_UClass_UPlayerWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_wg_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_wg_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "G1213DaniCharacter" },
@@ -259,6 +282,8 @@ void EmptyLinkFunctionForGeneratedCodeG1213DaniCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_level,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_wg,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213DaniCharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -295,7 +320,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213DaniCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AG1213DaniCharacter, 2169883587);
+	IMPLEMENT_CLASS(AG1213DaniCharacter, 2740518125);
 	template<> G1213DANI_API UClass* StaticClass<AG1213DaniCharacter>()
 	{
 		return AG1213DaniCharacter::StaticClass();

@@ -1,5 +1,5 @@
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Definitions.G1213Dani.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Development\G1213Dani\Definitions.G1213Dani.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Daniel\Desktop\G1213Dani\Source\G1213Dani/G1213DaniProjectile.h
-C:\Users\Daniel\Desktop\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniProjectile.generated.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Source\G1213Dani/G1213DaniProjectile.h
+C:\Users\Daniel\Desktop\UFinalExam\G1213Dani\Intermediate\Build\Win64\UE4Editor\Inc\G1213Dani\G1213DaniProjectile.generated.h

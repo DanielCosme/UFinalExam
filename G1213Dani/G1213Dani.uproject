@@ -8,7 +8,10 @@
 		{
 			"Name": "G1213Dani",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
 		}
 	]
 }
