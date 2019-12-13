@@ -365,7 +365,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\G1213Dani\PlayerWidget.cpp" />
+    <ClCompile Include="..\..\Source\G1213Dani\UnluckyTrap.cpp" />
     <ClInclude Include="..\..\Source\G1213Dani\PlayerWidget.h" />
+    <ClInclude Include="..\..\Source\G1213Dani\UnluckyTrap.h" />
     <None Include="..\..\G1213Dani.uproject" />
     <None Include="..\..\Source\G1213Dani.Target.cs" />
     <None Include="..\..\Source\G1213DaniEditor.Target.cs" />

@@ -111,6 +111,12 @@ void AG1213DaniCharacter::BeginPlay()
 	}
 }
 
+void AG1213DaniCharacter::looseLevel(int value)
+{
+	if (level % value == 0) level -= 2;
+	else level -= 1;
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 

@@ -52,8 +52,11 @@ public:
 
 	UPROPERTY(BlueprintReadOnly) int level = 10;
 
+	void looseLevel(int value);
+
 protected:
 	virtual void BeginPlay();
+
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
